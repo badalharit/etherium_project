@@ -69,3 +69,90 @@ Summary
 /*
  * LOG's End
  */
+
+------------------------------------------
+-------------React + Truffle--------------
+------------------------------------------
+
+$ truffle compile // To compile the contracts
+$ truffle migrate --reset // To force migrate it through Ganache
+
+/*
+ * Log Start
+ */
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\SimpleStorage.sol
+> Artifacts written to C:\xampp\htdocs\Etherium\web\frontend\client\src\contracts
+> Compiled successfully using:
+   - solc: 0.8.11+commit.d7f03943.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'ganache'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x4326b6b007c6aaffad8740852455e5b74cb067478f687e9c5889fa8b01eebc9c
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4311c8884eb81938ce165487A4E892BFd8Bc8026
+   > block number:        9
+   > block timestamp:     1642003108
+   > account:             0xea8993f2efB6d061Bded5a67de06B24E6044aD2a
+   > balance:             99.97694414
+   > gas used:            201843 (0x31473)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00403686 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00403686 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'SimpleStorage'
+   -------------------------
+   > transaction hash:    0x8851288d5759daeee92fef71b1ff9ca5d3e2cb03d679661ecb4ec74e549a9861
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xAA273cf522F3Ef7ea5d35317102EbF71C18D5D86
+   > block number:        11
+   > block timestamp:     1642003109
+   > account:             0xea8993f2efB6d061Bded5a67de06B24E6044aD2a
+   > balance:             99.97358076
+   > gas used:            125653 (0x1ead5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00251306 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00251306 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.00654992 ETH
+
+/*
+ * Log End
+ */
+
+ > npm start // To trigger the React app
