@@ -1,158 +1,27 @@
-# etherium_project
+<h1 align="center">Hi 👋, I'm Badal Harit</h1>
+<h3 align="center">A passionate backend developer from India</h3>
 
-------------------------------------------
------------------TRUFFLE------------------
-------------------------------------------
-> truffle compile // It'll compile all the contracts at once
-> truffle migrate // To make the contract live through Ganache
-> truffle migrate --reset // To re-create the contract & make it live through Ganache
-> truffle migrate --network ropsten // To make the contract live through Metamask with Ropsten
-> truffle migrate --network ropsten --reset // To re-create the contract & make it live through Metamask with Ropsten
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=badalharit&label=Profile%20views&color=0e75b6&style=flat" alt="badalharit" /> </p>
 
-/*
- * LOG's Start
- */
- 
- Compiling your contracts...
-===========================
-> Compiling .\contracts\Migrations.sol
-> Compiling .\contracts\demo.sol
-> Artifacts written to C:\xampp\htdocs\Etherium\web\build\contracts
-> Compiled successfully using:
-   > value sent:          0 ETH
-   > total cost:          0.000774335991415566 ETH
+<p align="left"> <a href="https://twitter.com/badalharit" target="blank"><img src="https://img.shields.io/twitter/follow/badalharit?logo=twitter&style=for-the-badge" alt="badalharit" /></a> </p>
 
-   Pausing for 2 confirmations...
-   ------------------------------
-   > confirmation number: 1 (block: 11802204)
-   > confirmation number: 2 (block: 11802205)
+- 🔭 I’m currently working on [Solidity](https://github.com/badalharit/blockchain)
 
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:     0.000774335991415566 ETH
+- 💬 Ask me about **PHP, AWS & Solidity**
 
+- ⚡ Fun fact **I think I'm funny & genius and I know I am ____. IYKYK :)**
 
-2_demo_migration.js
-===================
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/badalharit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="badalharit" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/badalharit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="badalharit" height="30" width="40" /></a>
+<a href="https://fb.com/badalharit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="badalharit" height="30" width="40" /></a>
+<a href="https://instagram.com/badal_harit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="badalharit" height="30" width="40" /></a>
+</p>
 
-   Replacing 'demo'
-   ----------------
-   > transaction hash:    0x236cb7692380b40fe399d7031e0e81295213390e6da37136b22a6be81321a615
-   > Blocks: 1            Seconds: 22
-   > contract address:    0x5b21f3299a3BD2a156Cd989cD06f6891873De4E0
-   > block number:        11802208
-   > block timestamp:     1642000885
-   > account:             0x8e753E9175E554D685eCE6A0fF3D54e08f8fBd38
-   > balance:             4.998549348731373412
-   > gas used:            156607 (0x263bf)
-   > gas price:           3.358296695 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000525932770513865 ETH
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> </p>
 
-   Pausing for 2 confirmations...
-   ------------------------------
-   > confirmation number: 1 (block: 11802209)
-   > confirmation number: 2 (block: 11802210)
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=badalharit&show_icons=true&locale=en&layout=compact" alt="badalharit" /></p>
 
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:     0.000525932770513865 ETH
-
-
-Summary
-=======
-> Total deployments:   2
-> Final cost:          0.001300268761929431 ETH
-
-/*
- * LOG's End
- */
-
-------------------------------------------
--------------React + Truffle--------------
-------------------------------------------
-
-$ truffle compile // To compile the contracts
-$ truffle migrate --reset // To force migrate it through Ganache
-
-/*
- * Log Start
- */
-
-Compiling your contracts...
-===========================
-> Compiling .\contracts\Migrations.sol
-> Compiling .\contracts\SimpleStorage.sol
-> Artifacts written to C:\xampp\htdocs\Etherium\web\frontend\client\src\contracts
-> Compiled successfully using:
-   - solc: 0.8.11+commit.d7f03943.Emscripten.clang
-
-
-
-Starting migrations...
-======================
-> Network name:    'ganache'
-> Network id:      5777
-> Block gas limit: 6721975 (0x6691b7)
-
-
-1_initial_migration.js
-======================
-
-   Replacing 'Migrations'
-   ----------------------
-   > transaction hash:    0x4326b6b007c6aaffad8740852455e5b74cb067478f687e9c5889fa8b01eebc9c
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x4311c8884eb81938ce165487A4E892BFd8Bc8026
-   > block number:        9
-   > block timestamp:     1642003108
-   > account:             0xea8993f2efB6d061Bded5a67de06B24E6044aD2a
-   > balance:             99.97694414
-   > gas used:            201843 (0x31473)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00403686 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.00403686 ETH
-
-
-2_deploy_contracts.js
-=====================
-
-   Replacing 'SimpleStorage'
-   -------------------------
-   > transaction hash:    0x8851288d5759daeee92fef71b1ff9ca5d3e2cb03d679661ecb4ec74e549a9861
-   > Blocks: 0            Seconds: 0
-   > contract address:    0xAA273cf522F3Ef7ea5d35317102EbF71C18D5D86
-   > block number:        11
-   > block timestamp:     1642003109
-   > account:             0xea8993f2efB6d061Bded5a67de06B24E6044aD2a
-   > balance:             99.97358076
-   > gas used:            125653 (0x1ead5)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00251306 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.00251306 ETH
-
-
-Summary
-=======
-> Total deployments:   2
-> Final cost:          0.00654992 ETH
-
-/*
- * Log End
- */
-
- > npm start // To trigger the React app
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=badalharit&" alt="badalharit" /></p>
