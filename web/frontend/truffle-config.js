@@ -17,7 +17,15 @@ module.exports = {
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
-      }
+      },
+      rinkeby: {
+        provider: () => new HDWalletProvider(mnemonic, `wss://rinkeby.infura.io/ws/v3/69682cb3dc1240a2a25d18f02f97cf20`),
+        network_id: 4,       // Rinkeby's id
+        gas: 5500000,        // Rinkeby has a lower block limit than mainnet
+        confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+        timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+        skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+        }
   },
   // Configure your compilers
   compilers: {
