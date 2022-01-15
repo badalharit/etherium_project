@@ -16,7 +16,7 @@ contract Lottery{
 
     function getBalance() public view returns(uint){
         require(msg.sender == manager);
-        return address(this).balance;
+        return address(manager).balance;
     }
 
     function randomParticipant() private view returns(uint){
@@ -33,5 +33,9 @@ contract Lottery{
         payable(manager).transfer(1 ether);
         participants = new address payable[](0);//Restting the dynamic array for next lottery
         // return winner;
+    }
+
+    function getLotteryManagerAddress() public view returns(address){
+        return address(manager);
     }
 }
