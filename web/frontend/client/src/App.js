@@ -33,9 +33,8 @@ class App extends Component {
 
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
-      this.setState({ web3, accounts, contract1: instance1 }, this.runExample);
-
-      this.setState({ web3, accounts, contract: instance }, this.getManagerAddress);
+      this.setState({ web3, accounts, contract1: instance1 });
+      this.setState({ web3, accounts, contract: instance });
 
     } catch (error) {
       // Catch any errors for any of the above operations.
@@ -49,20 +48,45 @@ class App extends Component {
   getManagerAddress = async () => {
     const { accounts, contract } = this.state;  
     const managerAddress = await contract.methods.getLotteryManagerAddress().call();
-    console.log(managerAddress);
-    // this.setState({ setManagerAddress: managerAddress });
+    this.setState({ setManagerAddress: managerAddress });
   
   };
 
   getManagerBalance = async () => {
-    const { accounts, contract } = this.state;  
+    const { contract } = this.state;  
     await contract.methods.getBalance().call().then(managerBalance => {
-      console.log(managerBalance);
+          this.setState({ getManagerBalance: managerBalance });
       }).catch(e => {
           console.log('Error: '+e.message);
-      });
-    // this.setState({ setManagerAddress: managerAddress });
-  
+      });  
+  };
+
+  getContractAddrs = async () => {
+    const { contract } = this.state;  
+    await contract.methods.getContractAddress().call().then(contractAddress => {
+      this.setState({ getContractaddress: contractAddress });
+      }).catch(e => {
+          console.log('Error: '+e.message);
+      });  
+  };
+
+  selectLotteryWinner = async () => {
+    const { accounts, contract } = this.state;  
+    await contract.methods.selectWinner().call().then(contractAddress => {
+      this.setState({ winnerMessage: "Hurray, "+contractAddress+" has won the lottery.!" });
+      }).catch(e => {
+        this.setState({ winnerMessage: "There's no participant at this moment.!" });
+          console.log('Error: '+e.message);
+      });  
+  };
+
+  getTotalParticipants = async () => {
+    const { accounts, contract } = this.state;  
+    await contract.methods.totalParticipants().call().then(participantCount => {
+      this.setState({ totalParticipants: "We have a total of, "+participantCount+" participants.!" });
+      }).catch(e => {
+          console.log('Error: '+e.message);
+      });  
   };
 
   runExample = async () => {
@@ -106,8 +130,14 @@ class App extends Component {
         <hr></hr>
         <div><h5>Get Manager Address: <button type="submit" onClick={this.getManagerAddress}>Submit</button></h5>
         <p>{this.state.setManagerAddress}</p></div>
-        <div><h5>Get Manager Balance: <button type="submit" onClick={this.getManagerBalance}>Submit</button></h5>
+        <div><h5>Get Contract Balance: <button type="submit" onClick={this.getManagerBalance}>Submit</button></h5>
         <p>{this.state.getManagerBalance}</p></div>
+        <div><h5>Get Contract Address: <button type="submit" onClick={this.getContractAddrs}>Submit</button></h5>
+        <p>{this.state.getContractaddress}</p></div>
+        <div><h5>Select Lottery Winner: <button type="submit" onClick={this.selectLotteryWinner}>Submit</button></h5>
+        <p>{this.state.winnerMessage}</p></div>
+        <div><h5>Get total participants: <button type="submit" onClick={this.getTotalParticipants}>Submit</button></h5>
+        <p>{this.state.totalParticipants}</p></div>
       </div>
     );
   }
